@@ -6,8 +6,7 @@ import callApi from '../utils/callApi';
 import CATEGORIES from '../utils/categories';
 
 const MarketBlock = styled.div`
-  width: 954px;
-  margin: 40px auto;
+  padding: 40px 20px;
 
   .listTitle {
     font-size: 20px;

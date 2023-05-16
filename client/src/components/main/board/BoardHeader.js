@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import Context from '../../../context/Context';
 
 const BoardHeaderBlk = styled.div`
-  width: 984px;
+  width: auto;
   margin: 0 15px;
   margin-bottom: 25px;
   display: flex;

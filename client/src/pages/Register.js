@@ -13,7 +13,7 @@ const RegisterBlock = styled.div`
   background-color: #f1f3f5;
 
   .registerForm {
-    width: 370px;
+    width: 440px;
     display: flex;
     justify-content: center;
     flex-direction: column;

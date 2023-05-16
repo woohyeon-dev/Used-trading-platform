@@ -4,7 +4,7 @@ import { BoardHeader, BoardList, Pagination } from '../components';
 import callApi from '../utils/callApi';
 
 const BoardBlock = styled.div`
-  margin: 40px 20px;
+  padding: 40px 20px;
 `;
 
 function Board() {

@@ -4,27 +4,23 @@ import { MemberCreate } from '../..';
 import callApi from '../../../utils/callApi';
 
 const MemberBlock = styled.div`
-  width: 100%;
   display: grid;
+  grid-gap: 8px;
   grid-template-columns: repeat(3, 1fr);
 `;
 
 const MemberBox = styled.div`
-  width: 320px;
-  height: 370px;
-  margin: 8px;
+  height: 412px;
+  padding: 10px;
   border: 1px solid black;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 
   .memberImgBox {
     position: absolute;
     z-index: 9;
-    margin: 9px;
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    border: 1px solid black;
+    width: 300.66px;
+    height: 340px;
 
     &:hover {
       transition: 0.7s ease-in-out;
@@ -34,48 +30,42 @@ const MemberBox = styled.div`
   }
 
   .memberImg {
-    width: 300px;
-    height: 300px;
+    width: 300.66px;
+    height: 340px;
+    outline: 1px solid black;
   }
 
   .memberInfoBox {
     position: absolute;
     z-index: 5;
-    top: 9px;
     font-size: 17px;
     padding: 20px;
-    width: 300px;
-    height: 200px;
     color: white;
-    margin: 0 9px;
   }
 
   .memberName {
-    width: 100%;
     font-weight: bold;
     font-size: 25px;
     line-height: 55px;
   }
 
   .memberInfo {
-    width: 100%;
     margin-bottom: 3px;
     line-height: 30px;
   }
 
   .buttonBox {
-    margin-top: 319px;
-    width: 300px;
-    height: 39px;
-    margin-left: 9px;
+    margin-top: 350px;
+    width: 300.66px;
+    height: 40px;
     display: flex;
     justify-content: right;
   }
 
   .memberBtn {
     width: 45px;
-    height: 39px;
-    line-height: 39px;
+    height: 40px;
+    line-height: 40px;
     border: 1px solid black;
     text-align: center;
 

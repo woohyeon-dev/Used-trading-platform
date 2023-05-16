@@ -12,7 +12,7 @@ const LoginBlock = styled.div`
   background-color: #f1f3f5;
 
   .loginForm {
-    width: 370px;
+    width: 440px;
     display: flex;
     height: 450px;
     justify-content: center;
@@ -24,7 +24,7 @@ const LoginBlock = styled.div`
 
   .loginLogo {
     margin-top: 20px;
-    width: 260px;
+    width: 360px;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -43,14 +43,14 @@ const LoginBlock = styled.div`
   .loginInputBox {
     display: flex;
     flex-direction: column;
-    margin: 20px 0;
+    margin: 20px 0 28px 0;
   }
 
   .loginInput {
-    width: 260px;
-    height: 45px;
-    margin-bottom: 20px;
-    padding: 10px;
+    width: 360px;
+    height: 50px;
+    margin-bottom: 24px;
+    padding: 14px;
     border: 1px solid #dfdfde;
     background-color: #f8f9fa;
     font-size: 16px;
@@ -62,12 +62,12 @@ const LoginBlock = styled.div`
   }
 
   .loginBtn {
-    width: 260px;
-    height: 45px;
+    width: 360px;
+    height: 50px;
     background-color: green;
     color: white;
     border: none;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
     font-family: 'GyeonggiBatang';
 
@@ -77,7 +77,7 @@ const LoginBlock = styled.div`
   }
 
   .registerBox {
-    width: 260px;
+    width: 360px;
     height: 70px;
     border-top: 2px solid #dfdfde;
     display: flex;

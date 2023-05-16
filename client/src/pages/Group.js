@@ -4,8 +4,7 @@ import { Member, MemberUpdateModal } from '../components';
 import callApi from '../utils/callApi';
 
 const GroupBlock = styled.div`
-  width: 1008px;
-  margin: 40px auto;
+  padding: 40px 20px;
 `;
 
 function Group() {

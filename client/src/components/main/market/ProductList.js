@@ -12,7 +12,7 @@ const ProductListBlk = styled.div`
 `;
 
 const ProductBox = styled.div`
-  width: 177.8px;
+  width: 179.2px;
   height: 240px;
   border: 1px solid black;
   padding: 6px;
@@ -21,14 +21,14 @@ const ProductBox = styled.div`
   justify-content: center;
 
   .imageBox {
-    width: 163.8px;
+    width: auto;
     height: 150px;
     margin-bottom: 6px;
     border: 1px solid black;
   }
 
   .postInfo {
-    width: 163.8px;
+    width: auto;
     height: 68px;
     border: 1px solid black;
     display: grid;
@@ -48,6 +48,7 @@ const ProductBox = styled.div`
     text-overflow: ellipsis;
     white-space: nowrap;
   }
+
   .prodPrice {
     height: 26px;
     line-height: 26px;

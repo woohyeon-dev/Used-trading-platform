@@ -21,7 +21,7 @@ const groupRouter = require('./routes/group');
 const semesterRouter = require('./routes/semester');
 
 const app = express();
-app.set('port', process.env.PORT); // 포트 설정
+app.set('port', process.env.PORT || 5001); // 포트 설정
 
 app.use('/img', express.static('public'));
 
@@ -45,12 +45,14 @@ app.use(express.json({ limit: '10mb' }));
 
 // extended 객체 안에 객체를 파싱할 수 있게 하려면 true
 app.use(express.urlencoded({ extended: false }));
+
 app.use(
   cors({
     origin: 'http://localhost:3000', // 단 아래 속성 true일 경우는 주소로 적어야한다.(보안강화)
     credentials: true, // front, back 간 쿠키 공유
   })
 );
+
 // cookieParser 설정에 비밀키를 넣어주자.
 // cookieParser를 사용하게되면 req.cookies로 접근이 가능하다.
 app.use(cookieParser(process.env.COOKIE_SECRET));

@@ -12,7 +12,7 @@ const FooterBlock = styled.div`
 
   p {
     font-size: 12px;
-    font-color: #dfdfde;
+    color: #dfdfde;
   }
 `;
 

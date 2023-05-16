@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 const CategoryBlock = styled.div`
-  width: 954px;
   height: 100px;
   margin-bottom: 20px;
   display: grid;

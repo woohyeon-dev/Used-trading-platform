@@ -4,9 +4,8 @@ import callApi from '../../../utils/callApi';
 
 const MemberCreateBlock = styled.div`
   .createForm {
-    width: 320px;
+    width: auto;
     height: 370px;
-    margin: 8px;
     border: 1px solid black;
     padding: 9px;
     background-color: #dfdfde;
@@ -28,7 +27,7 @@ const MemberCreateBlock = styled.div`
   }
 
   .imageName {
-    width: 170px;
+    width: 100%;
     padding: 7px;
     border: 1px solid black;
     height: 35px;
@@ -39,7 +38,7 @@ const MemberCreateBlock = styled.div`
   }
 
   .imageUploadBtn {
-    width: 65px;
+    width: 100px;
     height: 35px;
     text-align: center;
     line-height: 35px;
@@ -54,7 +53,7 @@ const MemberCreateBlock = styled.div`
   }
 
   .cancelBtn {
-    width: 55px;
+    width: 80px;
     height: 35px;
     text-align: center;
     line-height: 35px;
@@ -91,12 +90,12 @@ const MemberCreateBlock = styled.div`
 
   .submitBtn {
     width: 80px;
-    height: 39px;
+    height: 40px;
     background-color: #4aa02c;
     color: white;
     font-size: 15px;
     border: 1px solid black;
-    margin-left: 220px;
+    margin-left: 222px;
 
     &:hover {
       cursor: pointer;

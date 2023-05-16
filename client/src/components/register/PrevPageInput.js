@@ -6,13 +6,13 @@ const PrevPageInputBlock = styled.div`
   flex-direction: column;
 
   .prevInputs {
-    width: 260px;
-    height: 45px;
-    margin: 8px 0px;
+    width: 350px;
+    height: 50px;
+    margin: 10px 0px;
     padding: 10px;
     border: 2px solid #dfdfde;
     background-color: #f8f9fa;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'GyeonggiBatang';
 
     &:focus {
@@ -43,24 +43,25 @@ const PrevPageInputBlock = styled.div`
   }
 
   .nextBtn {
-    width: 260px;
-    height: 45px;
-    margin-top 15px;
+    width: 350px;
+    height: 50px;
+    margin-top: 15px;
     margin-bottom: 50px;
-    background-color: lightgrey;
-    font-size: 17px;
+    background-color: #eeeeee;
+    color: #bababa;
+    font-size: 18px;
     font-weight: bold;
-    line-height: 45px;
+    line-height: 50px;
     text-align: center;
-    color: white;
-    
+
     &:hover {
       cursor: pointer;
     }
   }
-  
+
   .able {
     background-color: green;
+    color: white;
   }
 `;
 

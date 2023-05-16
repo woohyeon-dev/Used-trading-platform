@@ -6,13 +6,13 @@ const NextPageInputBlock = styled.div`
   flex-direction: column;
 
   .nextInputs {
-    width: 260px;
-    height: 45px;
-    margin: 8px 0px;
+    width: 350px;
+    height: 50px;
+    margin: 10px 0px;
     padding: 10px;
     border: 1px solid #dfdfde;
     background-color: #f8f9fa;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'GyeonggiBatang';
 
     &:focus {
@@ -32,33 +32,33 @@ const NextPageInputBlock = styled.div`
     font-size: 13px;
   }
 
-  .prevBtn {
-    width: 260px;
-    height: 45px;
-    margin-top: 15px;
-    background-color: lightgrey;
-    color: white;
-    font-size: 17px;
-    font-weight: bold;
-    line-height: 45px;
-    text-align: center;
-  }
-
   .registerBtn {
-    width: 260px;
-    height: 45px;
-    margin-top: 13px;
-    margin-bottom: 50px;
+    width: 350px;
+    height: 50px;
+    margin-top: 14px;
     background-color: green;
     color: white;
     border: none;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
     font-family: 'GyeonggiBatang';
 
     &:hover {
       cursor: pointer;
     }
+  }
+
+  .prevBtn {
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: #eeeeee;
+    color: #bababa;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
   }
 `;
 
@@ -145,12 +145,12 @@ function NextPageInput({ registerInfo, handleChange, handlePage }) {
       {isPhoneNum ? null : (
         <div className='message'>{'전화번호는 필수 입력 항목입니다.'}</div>
       )}
-      <div className='prevBtn' onClick={handlePage}>
-        이전
-      </div>
       <button className='registerBtn' type='submit'>
         가입
       </button>
+      <div className='prevBtn' onClick={handlePage}>
+        이전
+      </div>
     </NextPageInputBlock>
   );
 }

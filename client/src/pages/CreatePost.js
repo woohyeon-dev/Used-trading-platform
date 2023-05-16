@@ -5,79 +5,75 @@ import Context from '../context/Context';
 import callApi from '../utils/callApi';
 
 const CreatePostBlock = styled.div`
-  width: 984px;
-  margin: 0 auto;
+  width: 1024px;
   display: flex;
   flex-direction: column;
-  padding: 50px 0 60px 0;
-  background-color: #f3f3f3;
-
-  form {
-    margin: 0 auto;
-  }
+  padding: 30px 30px 70px 30px;
+  font-size: 20px;
 
   .pageTitle {
-    font-size: 33px;
-    font-weight: bold;
+    font-size: 30px;
     text-align: center;
-    padding-bottom: 30px;
+    font-weight: bold;
+    height: 100px;
+    line-height: 100px;
     border-bottom: 2px solid black;
   }
 
   .inputBox {
     height: 50px;
     display: flex;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 0 20px;
   }
 
   .inputTitle {
+    width: 170px;
     font-size: 22px;
     line-height: 50px;
-    text-align: right;
-    padding-right: 40px;
   }
 
   input {
     font-family: 'GyeonggiBatang';
-    width: 704px;
+    width: 754px;
     font-size: 16px;
     padding: 17px;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     border-radius: 3px;
 
+    &:hover,
     &:focus {
-      outline: none;
+      outline: 1px solid black;
     }
   }
 
   .charCnt {
     padding: 10px 25px 10px 10px;
-    height: 50px;
+    height: 60px;
     text-align: right;
-    font-size: 20px;
     border-bottom: 1px solid lightgrey;
   }
 
   .textareaBox {
     display: flex;
-    margin-top: 30px;
+    margin-top: 40px;
     padding: 0 20px;
   }
 
   textarea {
     font-family: 'GyeonggiBatang';
-    width: 704px;
+    width: 754px;
     height: 350px;
     font-size: 16px;
     line-height: 30px;
     padding: 15px;
     resize: none;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
     border-radius: 3px;
 
+    &:hover,
     &:focus {
-      outline: none;
+      outline: 1px solid black;
     }
   }
 
@@ -93,7 +89,7 @@ const CreatePostBlock = styled.div`
     font-size: 18px;
     background-color: white;
     font-weight: bold;
-    margin-top: 30px;
+    margin-top: 40px;
 
     &:hover {
       cursor: pointer;
