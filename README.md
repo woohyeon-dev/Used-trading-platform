@@ -1,5 +1,8 @@
 # 영숙마켓(ヨンスクマーケット)
-<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"><br>
+<img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fwoohyeon-dev%2Fused-goods-market&count_bg=%237FAE5B&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" align="right">
+<span align="left">
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=Express&logoColor=white"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white"><br>
+</span>
 <br>
 
 ## 📝 About The Project
@@ -8,6 +11,12 @@
 
 ## ☁️ Overview
 学生寮に住んでいる学生たちが持ち物を売買や交換するためのオンラインプラットフォーム<br>
+<br>
+
+## 👨‍💻 Authors
+- 문석훈 &nbsp;&nbsp;<a href="https://github.com/Defiler1">@SeogHun Moon</a>
+- 권우현 &nbsp;&nbsp;<a href="https://github.com/woohyeon-dev">@woohyeon-dev</a>
+- 윤영운 &nbsp;&nbsp;<a href="https://github.com/YunYeongUn">@YunYeongUn</a>
 <br>
 
 ## ✨ Feature
