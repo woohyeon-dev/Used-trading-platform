@@ -14,8 +14,8 @@
 <br>
 
 ## 👨‍💻 Authors
-- 문석훈 &nbsp;&nbsp;<a href="https://github.com/Defiler1">@SeogHun Moon</a>
 - 권우현 &nbsp;&nbsp;<a href="https://github.com/woohyeon-dev">@woohyeon-dev</a>
+- 문석훈 &nbsp;&nbsp;<a href="https://github.com/Defiler1">@SeogHun Moon</a>
 - 윤영운 &nbsp;&nbsp;<a href="https://github.com/YunYeongUn">@YunYeongUn</a>
 <br>
 
@@ -55,15 +55,3 @@
 ### エラーページ
 ![image](https://github.com/woohyeon-dev/used-goods-market/assets/97883403/e241035f-fd09-489b-b08f-1373e2ba3490)<br>
 <br>
-
-## Contributors
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-[![All Contributors](https://img.shields.io/github/all-contributors/woohyeon-dev/used-goods-market?color=ee8449&style=flat-square)](#contributors)
